@@ -1,0 +1,46 @@
+{
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE",
+          "ThirdPartyNotices"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "**/*.png",
+          "**/*.jpg",
+          "**/*.gif",
+          "**/includes/media/**"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/*.md"
+        ]
+      }
+    ],
+    "overwrite": [],
+    "externalReference": [],
+    "globalMetadata": {
+      "uhfHeaderId": "MSDocsHeader-MSFlow",
+      "contributors_to_exclude": ["openpublishingbuild","sudeepku","v-thepet"],
+      "breadcrumb_path": "breadcrumb/toc.yml",
+      "searchScope": ["Flow"],
+      "titleSuffix": "Microsoft Flow"
+     },
+    "fileMetadata": {},
+    "template": [],
+    "dest": "flow"
+  }
+}
