@@ -1,29 +1,40 @@
 {
   "docsets_to_publish": [
-    {
+   {
       "docset_name": "flow",
       "build_source_folder": "flow-docs",
       "build_output_subfolder": "flow",
       "locale": "th-TH",
       "monikers": [],
       "moniker_ranges": [],
-      "open_to_public_contributors": false,
+      "open_to_public_contributors": true, 
+      "type_mapping": {
+        "Conceptual": "Content",
+        "ManagedReference": "Content",
+        "RestApi": "Content",
+        "LandingData": "Content", 
+        "ContextObject": "Toc",
+        "Tutorial": "Content"
+      },
       "build_entry_point": "docs",
       "template_folder": "_themes"
     }
   ],
   "notification_subscribers": [],
   "branches_to_filter": [
+    "master",
+    "master-sxs",
     "live",
-    "live-sxs",
-    "master-sxs"
+    "live-sxs"
   ],
-  "git_repository_url_open_to_public_contributors": "https://github.com/MicrosoftDocs/flow-docs/",
+  "git_repository_url_open_to_public_contributors": "https://github.com/MicrosoftDocs/flow-docs.th-th",
   "git_repository_branch_open_to_public_contributors": "live",
   "continue_with_document_error": true,
   "skip_source_output_uploading": false,
   "need_preview_pull_request": true,
-  "contribution_branch_mappings": {},
+  "contribution_branch_mappings": {
+    "live-sxs": "live"
+  },
   "dependent_repositories": [
     {
       "path_to_root": "_themes",
@@ -31,12 +42,11 @@
       "branch": "master",
       "branch_mapping": {}
     },
-    {
-      "path_to_root": "_themes.pdf",
-      "url": "https://github.com/Microsoft/templates.docs.msft.pdf",
-      "branch": "master",
-      "branch_mapping": {}
-    },
+     {
+         "path_to_root": "_themes.pdf",
+         "url": "https://github.com/Microsoft/templates.docs.msft.pdf",
+         "branch": "master"
+     },
     {
       "path_to_root": "_repo.en-us",
       "url": "https://github.com/MicrosoftDocs/flow-docs-pr",
@@ -47,21 +57,18 @@
       }
     }
   ],
-  "branch_target_mapping": {
-    "live": [
-      "Publish",
-      "PDF",
-      "Pdf"
+"branch_target_mapping": {
+     "live-sxs": [
+           "Publish"
     ],
-    "master": [
-      "Publish",
-      "PDF"
+    "live": [
+           "Publish"
     ]
-  },
-  "need_generate_pdf_url_template": true,
-  "Targets": {
-    "Pdf": {
-      "template_folder": "_themes.pdf"
-    }
-  }
+},
+"Targets": {
+     "Pdf": {
+               "template_folder": "_themes.pdf"
+     }
+},
+  "need_generate_pdf_url_template": false
 }
