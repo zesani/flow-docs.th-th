@@ -1,0 +1,110 @@
+### YamlMime:YamlDocument
+documentType: LandingData
+title: เอกสาร Microsoft Flow
+metadata:
+  title: เอกสาร วิดีโอ การอ้างอิง และอื่น ๆ ของ Microsoft Flow
+  description: เริ่มใช้งานการสร้าง การแชร์ และการจัดการโฟลว์โดยใช้ทรัพยากรที่นี่ คุณสามารถเริ่มต้นด้วยปุ่มอย่างง่าย หรือสร้างโฟลว์การอนุมัติของคุณเอง
+  author: MSFTMan
+  manager: anneta
+  layout: LandingPage
+  ms.assetid: 
+  ms.service: flow
+  ms.tgt_pltfrm: na
+  ms.devlang: na
+  ms.topic: landing-page
+  ms.date: 10/18/2017
+  ms.author: deonhe
+  ms.openlocfilehash: c741a66a0633eac14157c7f8716ae4231d1b494f
+  ms.sourcegitcommit: 753d52fa29d04f2eb774f7bec29b8d5793ccbb93
+  ms.translationtype: HT
+  ms.contentlocale: th-TH
+  ms.lasthandoff: 03/28/2018
+sections:
+- items:
+  - type: markdown
+    text: >
+      เริ่มใช้งานการสร้าง การแชร์ และการจัดการโฟลว์โดยใช้ทรัพยากรที่นี่ คุณสามารถเริ่มต้นด้วยปุ่มอย่างง่าย หรือสร้างโฟลว์การอนุมัติของคุณเอง
+- items:
+  - type: list
+    style: cards
+    className: cardsM
+    columns: 2
+    items:
+    - href: guided-learning/index
+      html: <p>สำรวจการเรียนรู้ตามคำแนะนำ</p>
+      image:
+        src: https://docs.microsoft.com/media/common/i_get-started.svg
+      title: ชมการแนะนำ
+    - href: getting-started
+      html: <p>ดูภาพรวมของ Microsoft Flow</p>
+      image:
+        src: https://docs.microsoft.com/media/common/i_get-started.svg
+      title: เริ่มใช้งาน
+    - href: mobile-create-flow
+      html: <p>สร้างโฟลว์บนอุปกรณ์เคลื่อนที่ใด ๆ</p>
+      image:
+        src: https://docs.microsoft.com/media/common/i_mobileapp.svg
+      title: ทำความรู้จักกับแอปสำหรับอุปกรณ์เคลื่อนที
+    - href: introduction-to-button-flows
+      html: <p>สร้างโฟลว์ปุ่มใน 2 นาที</p>
+      image:
+        src: https://docs.microsoft.com/media/common/i_api-reference.svg
+      title: เรียนรู้เกี่ยวกับปุ่ม
+    - href: https://aka.ms/flowoftheweek
+      html: <p>รับแรงบันดาลใจโดยโฟลว์ของสัปดาห์</p>
+      image:
+        src: https://docs.microsoft.com/media/common/i_api-reference.svg
+      title: โฟลว์ของสัปดาห์
+    - href: https://flow.microsoft.com/support/
+      html: <p>รับการช่วยเหลือและสนับสนุน</p>
+      image:
+        src: https://docs.microsoft.com/media/common/i_support.svg
+      title: เราคอยช่วยเหลือคุณ
+- title: บทช่วยสอนทีละขั้นตอน
+  items:
+  - type: paragraph
+    text: เรียนรู้วิธีสร้างโฟลว์ชนิดต่าง ๆ
+  - type: list
+    style: cards
+    className: cardsM
+    columns: 3
+    items:
+    - href: get-started-logic-template
+      title: สร้างโฟลว์จากเทมเพลต
+      image:
+        src: https://docs.microsoft.com/media/common/i_guide.svg
+    - href: get-started-logic-flow
+      title: สร้างโฟลว์ตั้งแต่เริ่มต้น
+      image:
+        src: https://docs.microsoft.com/media/common/i_build.svg
+    - href: modern-approvals
+      title: สร้างโฟลว์การอนุมัติ
+      image:
+        src: https://docs.microsoft.com/media/common/i_tasks.svg
+    - href: share-buttons
+      title: อนุญาตให้ผู้อื่นใช้ปุ่มของคุณ
+      image:
+        src: https://docs.microsoft.com/media/common/i_setup.svg
+    - href: create-team-flows
+      title: แชร์ความเป็นเจ้าของโฟลว์ของคุณ
+      image:
+        src: https://docs.microsoft.com/media/common/i_configure-teams.svg
+    - href: fix-flow-failures
+      title: แก้ไขปัญหาโฟลว์
+      image:
+        src: https://docs.microsoft.com/media/common/i_investigate.svg
+- title: วิดีโอภาพรวมของ Microsoft Flow
+  items:
+  - type: markdown
+    text: <iframe width="560" height="315" src="https://www.youtube.com/embed/iMteXfAvDSE?list=PL8nfc9haGeb55I9wL9QnWyHp3ctU2_ThF" frameborder="0" allowfullscreen></iframe>
+- title: บทช่วยสอนขั้นสูง
+  items:
+  - type: paragraph
+    text: เรียนรู้วิธีการใช้นิพจน์ REST API และวิธีการสร้างตัวเชื่อมต่อแบบกำหนดเอง และอื่น ๆ...
+  - type: list
+    style: unordered
+    items:
+    - html: <a href="environments-overview-admin">จัดการ Microsoft Flow สำหรับองค์กร</a>
+    - html: <a href="https://flow.microsoft.com/blog/call-flow-restapi/">เรียนรู้วิธีใช้ REST API ด้วยโฟลว์ของคุณ</a>
+    - html: <a href="customapi-web-api-tutorial">สร้างตัวเชื่อมต่อแบบกำหนดเอง</a>
+    - html: <a href="https://flow.microsoft.com/blog/grow-up-to-logic-apps/">ขยายโฟลว์ของคุณด้วย Logic Apps</a>

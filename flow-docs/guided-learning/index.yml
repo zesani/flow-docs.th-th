@@ -1,0 +1,46 @@
+### YamlMime:YamlDocument
+documentType: LandingData
+title: การเรียนรู้ตามคำแนะนำของ Microsoft Flow
+metadata:
+  title: การเรียนรู้ตามคำแนะนำของ Microsoft Flow
+  meta.description: Start your learning journey with this sequenced collection of courses, and understand the extensive and powerful capabilities of Microsoft Flow.
+  author: MSFTMan
+  manager: anneta
+  layout: LandingPage
+  ms.assetid: 
+  ms.service: flow
+  ms.tgt_pltfrm: na
+  ms.devlang: na
+  ms.topic: landing-page
+  ms.date: 10/13/2017
+  ms.author: deonhe
+  ms.openlocfilehash: 8f6657db587369de84ba98c2ccc84efab22b8817
+  ms.sourcegitcommit: 122870842a07183ab3b90e07d99b60d822d6c5ae
+  ms.translationtype: HT
+  ms.contentlocale: th-TH
+  ms.lasthandoff: 10/18/2017
+abstract:
+  description: เริ่มต้นการเดินทางเรียนรู้ของคุณด้วยคอลเลกชันตามลำดับของหลักสูตรนี้ และทำความเข้าใจความสามารถที่ครอบคลุมและมีประสิทธิภาพของ Microsoft Flow
+sections:
+- items:
+  - type: list
+    style: cards
+    className: cardsF
+    columns: 2
+    items:
+    - html: <p><a href="get-started#step-1">ทำความเข้าใจพื้นฐานของ Microsoft Flow</a> - 14 นาที</p><p><a href="get-started#step-2">สร้างโฟลว์จากเทมเพลต</a> - 9 นาที</p><p><a href="get-started#step-3">ใช้แอป Microsoft Flow สำหรับอุปกรณ์เคลื่อนที่</a> - 8 นาที</p>
+      image:
+        src: https://docs.microsoft.com/media/common/i_get-started.svg
+      title: เริ่มใช้งาน
+    - html: <p><a href="build-flows#step-1">สร้างโฟลว์ปุ่ม</a> - 11 นาที</p><p><a href="build-flows#step-2">รับการแจ้งเตือน</a> - 6 นาที</p><p><a href="build-flows#step-3">คัดลอกไฟล์</a> - 4 นาที</p><p><a href="build-flows#step-4">เก็บรวบรวมข้อมูล</a> - 5 นาที</p><p><a href="build-flows#step-5">โพสต์ทวีตจากโฟลว์</a> - 15 นาที</p><p><a href="build-flows#step-6">สร้างโฟลว์ที่กำหนดเวลาไว้</a> - 9 นาที</p><p><a href="build-flows#step-7">แปลง และจัดเก็บเอกสาร</a> - 14 นาที</p>
+      image:
+        src: https://docs.microsoft.com/media/common/i_build.svg
+      title: สร้างโฟลว์
+    - html: <p><a href="work-with-approvals#step-1">สร้างคำขออนุมัติ</a> - 4 นาที</p><p><a href="work-with-approvals#step-2">ประมวลผลคำขออนุมัติ</a> - 7 นาที</p>
+      image:
+        src: https://docs.microsoft.com/media/common/i_tasks.svg
+      title: การทำงานพร้อมการอนุมัติ
+    - html: <p><a href="administer-flows#step-1">ใช้สภาพแวดล้อมเพื่อจัดการโฟลว์</a> - 8 นาที</p><p><a href="administer-flows#step-2">ใช้นโยบายการป้องกันการสูญหายของข้อมูล</a> - 6 นาที</p>
+      image:
+        src: https://docs.microsoft.com/media/common/i_management.svg
+      title: ดูแลจัดการโฟลว์
