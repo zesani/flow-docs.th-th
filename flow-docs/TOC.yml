@@ -54,6 +54,8 @@
       href: all-assigned-must-approve.md
     - name: การอนุมัติแบบรวม
       href: common-data-model-approve.md
+    - name: คำขออนุมัติรูปแบบ
+      href: approvals-markdown-support.md
 - name: ใช้แอปสำหรับอุปกรณ์เคลื่อนที
   items:
     - name: สร้างโฟลว์
@@ -110,6 +112,16 @@
       href: prevent-data-loss.md
     - name: กลุ่มข้อมูลเบื้องต้น
       href: introduction-to-data-groups.md
+- name: ตอบสนองคำขอ DSR
+  items:
+    - name: สรุป
+      href: gdpr-dsr-summary.md
+    - name: ค้นหาคำขอ
+      href: gdpr-dsr-discovery.md
+    - name: ส่งออกคำขอ
+      href: gdpr-dsr-export.md
+    - name: ลบคำขอ
+      href: gdpr-dsr-delete.md
 - name: การอ้างอิง
   items:
     - name: ภาพรวมภูมิภาค
