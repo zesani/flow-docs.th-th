@@ -15,15 +15,15 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 4/23/2018
 ms.author: gcorvera
-ms.openlocfilehash: 9fc24590740be37fac04c9d48f63007a7a850f8e
-ms.sourcegitcommit: 12fbfe22fedd780d42ef1d2febfd7a0769b4902e
+ms.openlocfilehash: dc8d9d650b02b7962770ff0574deb151492739d9
+ms.sourcegitcommit: 87934a195701e2ab33127ee084b9519e387db268
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="use-markdown-in-microsoft-flow-approval-requests"></a>ใช้ Markdown ในคำขอการอนุมัติ Microsoft Flow
 
-บทความนี้สอนวิธีใช้ไวยากรณ์ [Markdown](https://en.wikipedia.org/wiki/Markdown) เมื่อต้องเพิ่มการจัดรูปแบบที่สมบูรณ์ ตาราง และภาพลงในคำขอการอนุมัติของคุณ
+บทความนี้สอนวิธีใช้ไวยากรณ์ [Markdown](https://en.wikipedia.org/wiki/Markdown) เพื่อเพิ่มการจัดรูปแบบและตารางที่หลากหลายลงในคำขอการอนุมัติของคุณ
 
 ## <a name="headers"></a>ส่วนหัว
 
