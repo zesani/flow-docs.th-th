@@ -24,8 +24,7 @@
   "branches_to_filter": [
     "master",
     "master-sxs",
-    "live",
-    "live-sxs"
+    "live"
   ],
   "git_repository_url_open_to_public_contributors": "https://github.com/MicrosoftDocs/flow-docs.th-th",
   "git_repository_branch_open_to_public_contributors": "live",
