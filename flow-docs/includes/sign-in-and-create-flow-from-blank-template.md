@@ -8,3 +8,5 @@
    
     ![สร้างจากว่างเปล่า](media/modern-approvals/blank-template.png)
 
+4. เลือกปุ่ม**สร้างจากเอกสารเปล่า**
+

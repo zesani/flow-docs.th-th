@@ -14,18 +14,38 @@ ms.author: deonhe
 manager: kfile
 ms.date: 03/28/2018
 ms.topic: hub-page
-ms.prod: flow
-ms.technology: ''
 ms.reviewer:
 - karann-msft
-ms.openlocfilehash: 0fb3e966593c85d2a437614f9c34087fca3a06ab
-ms.sourcegitcommit: d00c10759d4afb54517a0b1032f8d0a509006d5b
+ms.openlocfilehash: 05bf99aa91b5cfe8635cc7be72669b4d1012ef49
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/16/2018
-ms.locfileid: "31008012"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34479769"
 ---
 <div id="main" class="v2">
+    <div class="container">
+        <ul class="cardsY panelContent featuredContent">
+            <li>
+                <a href="getting-started.md">
+                    <div class="cardSize">
+                        <div class="cardPadding">
+                            <div class="card">
+                                <div class="cardImageOuter">
+                                    <div class="cardImage">
+                                        <img src="https://docs.microsoft.com/media/common/i_get-started.svg" alt="" />
+                                    </div>
+                                </div>
+                                <div class="cardText">
+                                    <span class="likeAnH3">ดูเอกสารทั้งหมด</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
 <div class="container">
     <h1>เอกสารประกอบของ Microsoft Flow</h1>
     <ul class="pivots">
@@ -371,6 +391,92 @@ ms.locfileid: "31008012"
                                         <div class="cardText">
                                             <h3>ขยายโฟลว์ของคุณด้วย Logic Apps</h3>
                                             <p>Azure Logic Apps มีชุดที่เพียบพร้อมด้วยความสามารถมากกว่าที่มีใน Microsoft Flow เพียงแค่บันทึกโฟลว์ใด ๆ เป็นเทมเพลต Logic Apps และจัดการโฟลว์นั้นเช่นเดียวกับการจัดการทรัพยากร Logic Apps อื่น</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <a href="#admin">ฉันเป็นผู้ดูแลระบบ</a>
+            <ul id="admin">
+                <li>
+                    <a href="#admin-all"></a>
+                    <ul id="admin-all" class="cardsC">
+                        <li>
+                            <a href="environments-overview-admin.md">
+                            <div class="cardSize">
+                                <div class="cardPadding">
+                                    <div class="card">
+                                        <div class="cardImageOuter">
+                                            <div class="cardImage  bgdAccent1">
+                                                <img src="media/index/environments_dlp.svg" alt="Manage environments." />
+                                            </div>
+                                        </div>
+                                        <div class="cardText">
+                                            <h3>จัดการสภาพแวดล้อม</h3>
+                                            <p>จัดการสภาพแวดล้อมขององค์กรของคุณ</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="prevent-data-loss.md">
+                            <div class="cardSize">
+                                <div class="cardPadding">
+                                    <div class="card">
+                                        <div class="cardImageOuter">
+                                            <div class="cardImage  bgdAccent1">
+                                                <img src="media/index/environments_dlp.svg" alt="Define data policies." />
+                                            </div>
+                                        </div>
+                                        <div class="cardText">
+                                            <h3>ป้องกันข้อมูลสูญหาย</h3>
+                                            <p>กำหนดนโยบายเพื่อปกป้องข้อมูลขององค์กรของคุณ</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://flow.microsoft.com/blog/accessing-office-365-security-compliance-center-logs-from-microsoft-flow/">
+                            <div class="cardSize">
+                                <div class="cardPadding">
+                                    <div class="card">
+                                        <div class="cardImageOuter">
+                                            <div class="cardImage  bgdAccent1">
+                                                <img src="media/index/manage_runs.svg" alt="Manage flow runs." />
+                                            </div>
+                                        </div>
+                                        <div class="cardText">
+                                            <h3>จัดการการเรียกใช้โฟลว์</h3>
+                                            <p>ตรวจสอบและจัดการแต่ละการเรียกใช้โฟลว์ของคุณ</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://flow.microsoft.com/blog/announcing-microsoft-flow-analytics/">
+                            <div class="cardSize">
+                                <div class="cardPadding">
+                                    <div class="card">
+                                        <div class="cardImageOuter">
+                                            <div class="cardImage  bgdAccent1">
+                                                <img src="media/index/analytics_reporting.svg" alt="Gain insights into your flows" />
+                                            </div>
+                                        </div>
+                                        <div class="cardText">
+                                            <h3>รับข้อมูลเชิงลึกลงในโฟลว์ของคุณ</h3>
+                                            <p>รับข้อมูลเชิงลึกลงในสถานภาพของโฟลว์ของคุณจากแดชบอร์ดการวิเคราะห์</p>
                                         </div>
                                     </div>
                                 </div>

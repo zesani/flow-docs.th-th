@@ -5,7 +5,7 @@ services: ''
 suite: flow
 documentationcenter: na
 author: MSFTMan
-manager: anneta
+manager: KFile
 editor: ''
 tags: ''
 ms.service: flow
@@ -15,12 +15,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 09/15/2017
 ms.author: deonhe
-ms.openlocfilehash: 73567d4d553ceac1d2cee46feb07ad9a6e7ade33
-ms.sourcegitcommit: 0b7964058416fd8d5e355913eea27172f1c61992
+ms.openlocfilehash: fc69517beb24d50432c1cbed216f28cfc0f862fb
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/09/2018
-ms.locfileid: "31002484"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34453273"
 ---
 # <a name="understand-on-premises-data-gateways-for-microsoft-flow"></a>ทำความเข้าใจเกตเวย์ข้อมูลภายในองค์กรสำหรับ Microsoft Flow
 ใช้เกตเวย์ข้อมูลภายในองค์กร ด้วย Microsoft Flow เพื่อสร้างการเชื่อมต่อที่ปลอดภัยไปยังแหล่งข้อมูลภายในองค์กรของคุณเช่น Microsoft SQL Server
@@ -143,6 +143,10 @@ Test-NetConnection -ComputerName watchdog.servicebus.windows.net -Port 9350
 
 นี่ไม่ใช่บัญชีที่ใช้เพื่อเชื่อมต่อกับแหล่งข้อมูลภายในองค์กรหรือบัญชีของที่ทำงานหรือของโรงเรียนที่คุณลงชื่อเข้าใช้บริการ cloud
 
+## <a name="tenant-level-administration"></a>จัดการระดับผู้เช่า
+
+ขณะนี้ยังไม่มีพื้นที่ใดที่ผู้ดูแลผู้เช่าสามารถจัดการเกตเวย์ทั้งหมดที่ผู้ใช้อื่นได้ติดตั้งและกำหนดค่าไว้ได้  ถ้าคุณเป็นผู้ดูแลระบบผู้เช่า เราแนะนำให้คุณขอให้ผู้ใช้ในองค์กรของคุณเพิ่มคุณเป็นผู้ดูแลระบบสำหรับทุกเกตเวย์ทที่พวกเขาติดตั้ง ซึ่งการทำเช่นนี้จะช่วยให้คุณสามารถจัดการเกตเวย์ทั้งหมดในองค์กรของคุณผ่านหน้าการตั้งค่าเกตเวย์ หรือผ่านทาง[คำสั่ง PowerShell](https://docs.microsoft.com/power-bi/service-gateway-high-availability-clusters#powershell-support-for-gateway-clusters) ได้
+
 ## <a name="frequently-asked-questions"></a>คำถามที่ถามบ่อย
 ### <a name="general-questions"></a>คำถามทั่วไป
 **คำถาม:** แหล่งข้อมูลใดไม่รองรับเกตเวย์
@@ -189,7 +193,7 @@ Test-NetConnection -ComputerName watchdog.servicebus.windows.net -Port 9350
 
 ### <a name="high-availabilitydisaster-recovery"></a>การกู้คืนความพร้อมใช้งาน/ความเสียหาย ระดับสูง
 **คำถาม:** มีแผนการที่จะเปิดใช้สถานการณ์ของความพร้อมใช้งานขั้นสูงด้วยเกตเวย์หรือไม่?
-**คำตอบ:** อยู่ในโรดแมป แต่เรายังไม่ทราบว่าจะมีเมื่อไหร่
+**คำตอบ:** ใช่ ความพร้อมใช้งานระดับสูงคือ [พร้อมใช้งานในขณะนี้](https://flow.microsoft.com/blog/gateway-ha-increased-apply-to-each)
 
 **คำถาม:** ตัวเลือกใดพร้อมใช้งานสำหรับการกู้คืนความเสียหาย
 **คำตอบ:** คุณสามารถใช้คีย์การกู้คืนเพื่อคืนค่าหรือย้ายเกตเวย์ได้

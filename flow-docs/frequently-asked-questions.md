@@ -15,12 +15,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/15/2017
 ms.author: stepsic
-ms.openlocfilehash: 99a66520b5a922b4945c9d3c94c7a5c053df98ee
-ms.sourcegitcommit: a0435b92fa7f5dedff3b0ff806836c7a07309fd2
+ms.openlocfilehash: 4fa6af7557fdbae46db5eb74a82a9d30a991e93b
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/15/2018
-ms.locfileid: "31002704"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34453319"
 ---
 # <a name="frequently-asked-questions"></a>คำถามที่ถามบ่อย
 ## <a name="audience-and-strategy"></a>ผู้ใช้งานและกลยุทธ์
@@ -132,3 +132,7 @@ Microsoft Flow เป็นรุ่นหลังจาก SharePoint Designer
 ### <a name="what-pricing-plans-do-you-offer"></a>คุณนำเสนอแผนราคาใด?
 Microsoft Flow มีบริการทั้งสองระดับนั่นคือ บริการฟรีและแบบชำระเงิน [เรียนรู้เพิ่มเติมเกี่ยวกับการกำหนดราคา](billing-questions.md)
 
+## <a name="learn-more"></a>เรียนรู้เพิ่มเติม
+
+* ดู[การเรียนรู้แบบให้คำแนะนำ](guided-learning/index.yml)ของ Microsoft Flow
+* เรียนรู้พื้นฐานของ Microsoft Flow ใน[แนวทางการเริ่มต้นใช้งาน](getting-started.md)
