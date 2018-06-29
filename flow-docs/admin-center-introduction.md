@@ -30,7 +30,7 @@ ms.locfileid: "31002289"
 
 ## <a name="access-the-admin-center"></a>เปิดใช้ศูนย์การจัดการ
 
-* เรียกดูเพื่อเข้าถึงhttps://admin.flow.microsoft.comศูนย์การจัดการของ Microsoft Flow
+* เรียกดูเพื่อเข้าถึง https://admin.flow.microsoft.com ศูนย์การจัดการของ Microsoft Flow
 
 ## <a name="environments"></a>สภาพแวดล้อม
 
