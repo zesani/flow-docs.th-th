@@ -1,6 +1,6 @@
 ดูคำขออนุมัติที่ค้างอยู่ทั้งหมดโดยทำตามขั้นตอนเหล่านี้:
 
-1. ลงชื่อเข้าใช้ [Microsoft Flow](https://flow.microsoft.com)
+1. ลงชื่อเข้าใช้[Microsoft Flow](https://flow.microsoft.com)
    
     ![ลงชื่อเข้าใช้](media/modern-approvals/sign-in.png)
 2. เลือกแท็บ**การอนุมัติ**

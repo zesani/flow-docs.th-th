@@ -1,4 +1,4 @@
-1. ลงชื่อเข้าใช้ [Microsoft Flow](https://flow.microsoft.com) แล้ว เลือกแท็บ**โฟลว์ของฉัน**
+1. ลงชื่อเข้าใช้[Microsoft Flow](https://flow.microsoft.com)แล้วเลือกแท็บ**โฟลว์ของฉัน**
 2. เลือก**สร้างจากว่างเปล่า**
    
     ![โฟลว์ว่างเปล่า](media/email-triggers/email-triggers-create-blank.png)

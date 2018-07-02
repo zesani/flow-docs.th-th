@@ -13,7 +13,7 @@
     ![ใส่ข้อคิดเห็น](media/modern-approvals/request-in-approval-center.png)
 
 ### <a name="from-the-approvals-center"></a>จากศูนย์การอนุมัติ
-1. ลงชื่อเข้าใช้ [Microsoft Flow](https://flow.microsoft.com)
+1. ลงชื่อเข้าใช้[Microsoft Flow](https://flow.microsoft.com)
    
     ![ลงชื่อเข้าใช้](media/modern-approvals/sign-in.png)
 2. เลือกแท็บ**การอนุมัติ**
