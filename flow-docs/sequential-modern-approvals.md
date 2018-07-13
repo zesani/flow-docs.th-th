@@ -16,11 +16,11 @@ ms.workload: na
 ms.date: 06/08/2017
 ms.author: deonhe
 ms.openlocfilehash: 8620cd49f9e19f6641909fcab3103568d148e565
-ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
+ms.sourcegitcommit: 4a8d11e1768cd0ca96a60b6f5548a68c0c8999e5
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31001469"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38949552"
 ---
 # <a name="manage-sequential-approvals-with-microsoft-flow"></a>จัดการการอนุมัติตามลำดับ ด้วย Microsoft Flow
 เวิร์กโฟลว์บางอย่างจำเป็นต้องมีการอนุมัติล่วงหน้า ก่อนที่ผู้อนุมัติขั้นสุดท้ายต้องลงชื่อ ตัวอย่างเช่น บริษัทอาจมีนโยบายการอนุมัติตามลำดับ ที่ต้องมีการอนุมัติล่วงหน้าสำหรับใบแจ้งหนี้เกิน $1000.00 ก่อนที่จะได้รับการอนุมัติโดยแผนกการเงิน
