@@ -15,12 +15,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 4/17/2018
 ms.author: keweare
-ms.openlocfilehash: f7ceaa76ddf4e1980ad8144a6152fc8211c3880b
-ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
+ms.openlocfilehash: 70206e0ed6c2b59d0dfffa0c4608ba47e0fac1dc
+ms.sourcegitcommit: ca875127f607034d7ef6a3fe270fc48e4f7eeee6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34561321"
+ms.lasthandoff: 07/20/2018
+ms.locfileid: "39175143"
 ---
 # <a name="responding-to-gdpr-data-subject-delete-requests-for-microsoft-flow"></a>การตอบสนองคำขอการลบเจ้าของข้อมูล GDPR สำหรับ Microsoft Flow
 
@@ -258,10 +258,10 @@ Get-AdminConnectorRoleAssignment -PrincipalObjectId $deleteDsrUserId | Remove-Ad
 
 1. ถ้าคุณตัดสินใจว่า ไม่มีการใช้สภาพแวดล้อมโดยบุคคลอื่นในองค์กรของคุณ คุณสามารถเลือกที่จะลบสภาพแวดล้อมได้
 1. ถ้าคุณตัดสินใจว่า ยังจำเป็นต้องใช้สภาพแวดล้อม คุณสามารถเลือกที่จะไม่ลบสภาพแวดล้อม และเพิ่มตัวคุณเอง (หรือผู้ใช้อื่นในองค์กรของคุณ) เป็นผู้ดูแลระบบสภาพแวดล้อม
-    > [!IMPORTANT]
-    > การลบสภาพแวดล้อมจะลบทรัพยากรภายในสภาพแวดล้อมอย่างถาวร รวมถึงแอป โฟลว์ การเชื่อมต่อ ฯลฯ ดังนั้นโปรดตรวจทานเนื้อหาของสภาพแวดล้อมก่อนที่จะลบ
-    >
-    >
+> [!IMPORTANT]
+> การลบสภาพแวดล้อมจะลบทรัพยากรภายในสภาพแวดล้อมอย่างถาวร รวมถึงแอป โฟลว์ การเชื่อมต่อ ฯลฯ ดังนั้นโปรดตรวจทานเนื้อหาของสภาพแวดล้อมก่อนที่จะลบ
+>
+>
 
 ## <a name="give-access-to-a-users-environments-from-the-microsoft-flow-admin-center"></a>ให้สิทธิ์การเข้าถึงสภาพแวดล้อมของผู้ใช้จากศูนย์การจัดการ Microsoft Flow
 
