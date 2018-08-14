@@ -15,12 +15,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 11/22/2017
 ms.author: barathb
-ms.openlocfilehash: a3f1e21cfbf00749a0ef09c0363da162f0419f42
-ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
+ms.openlocfilehash: 1bcdbf3772ab2481b15bd224523dff74afc53101
+ms.sourcegitcommit: 77aae180d972373d1f251fa6a5c8f484f08ffc15
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31001219"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39718292"
 ---
 # <a name="start-to-build-with-microsoft-flow"></a>เริ่มสร้างด้วย Microsoft Flow
 
@@ -56,11 +56,11 @@ ms.locfileid: "31001219"
 
 ## <a name="embed-the-flow-experience-into-your-website-or-app"></a>ฝังประสบการณ์การใช้งานโฟลว์ลงในเว็บไซต์หรือแอปของคุณ
 
-คุณสามารถ[ฝัง](embed-flow-dev.md) Microsoft Flow ลงในแอปของคุณเพื่อให้ได้การรวมกันในบริบทที่ลึกระหว่างแอปของคุณและบริการอื่น ๆ ทั้งหมดที่ Microsoft Flow สนับสนุน ตัวอย่างเช่น คุณสามารถ:
+คุณสามารถ[ฝัง](developer/embed-flow-dev.md) Microsoft Flow ลงในแอปของคุณเพื่อให้ได้การรวมกันในบริบทที่ลึกระหว่างแอปของคุณและบริการอื่น ๆ ทั้งหมดที่ Microsoft Flow สนับสนุน ตัวอย่างเช่น คุณสามารถ:
 
 * เรียกดูเทมเพลตทั้งหมดที่เกี่ยวข้องกับบริการของคุณ และให้ผู้ใช้เลือกเทมเพลตหนึ่ง
 * จัดการโฟลว์ที่ผู้ใช้มีที่เกี่ยวข้องกับแอปของคุณ
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
-เรียนรู้วิธีการ[ฝัง](embed-flow-dev.md) Microsoft Flow ลงในแอปของคุณ
+เรียนรู้วิธีการ[ฝัง](developer/embed-flow-dev.md) Microsoft Flow ลงในแอปของคุณ
