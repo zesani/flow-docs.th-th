@@ -15,12 +15,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/21/2017
 ms.author: deonhe
-ms.openlocfilehash: d4e8de2f9f67c07861297e079948a5336ff66e7f
-ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
+ms.openlocfilehash: ec7801f249ce4f3a1e33a6092726a6574a2e6d4c
+ms.sourcegitcommit: cd3cdcff3accb9a54f002fdc33d33935b4276249
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31001214"
+ms.lasthandoff: 08/06/2018
+ms.locfileid: "39520019"
 ---
 # <a name="create-team-flows"></a>สร้างโฟลว์ทีม
 สร้างโฟลว์ทีมโดยการเพิ่มบุคคลอื่นในองค์กรของคุณเป็นเจ้าของโฟลว์ เจ้าของทั้งหมดของโฟลว์ทีมสามารถดำเนินการดังต่อไปนี้ได้:
@@ -64,6 +64,10 @@ ms.locfileid: "31001214"
     ![เจ้าของใหม่](./media/create-team-flows/addowner4.png)
    
      ขอแสดงความยินดี &mdash;ระบบได้สร้างโฟลว์ทีมของคุณขึ้นแล้ว!
+
+##<a name="add-a-list-as-a-co-owner"></a>เพิ่มรายการเป็นเจ้าของร่วม
+
+คุณสามารถเพิ่มรายการ SharePoint เป็นเจ้าของร่วมไปที่โฟลว์เพื่อให้ทุกคนที่มีการเข้าถึงแบบแก้ไขในรายการจะสามารถเข้าถึงแก้ไขไปยังโฟลว์โดยอัตโนมัติ เมื่อโฟลว์ถูกแชร์ คุณสามารถแจกจ่ายลิงก์ได้ง่าย ๆ
 
 ## <a name="remove-an-owner"></a>ลบเจ้าของ
 > [!IMPORTANT]
