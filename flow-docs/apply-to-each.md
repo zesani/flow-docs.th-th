@@ -15,12 +15,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/16/2017
 ms.author: deonhe
-ms.openlocfilehash: 37f1ce939db23694bcd92e7f1af75bf6c474be91
-ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
+search.app:
+- Flow
+search.audienceType:
+- flowmaker
+- enduser
+ms.openlocfilehash: 914fe6d84bb63e1f3e184794d34fbfd58ad30963
+ms.sourcegitcommit: a20fbed9941f0cd8b69dc579277a30da9c8bb31b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31001284"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44690180"
 ---
 # <a name="use-the-apply-to-each-action-in-microsoft-flow-to-process-a-list-of-items-periodically"></a>ใช้การดำเนินการ นำไปใช้ในแต่ละอัน ใน Microsoft Flow เพื่อประมวลผลรายการของข้อมูลเป็นระยะ ๆ
 หลาย ๆ ทริกเกอร์สามารถเริ่มต้นโฟลว์ทันทีตามเหตุการณ์ เช่นเมื่อมีอีเมลใหม่เข้ามาในกล่องขาเข้าของคุณ ทริกเกอร์เหล่านี้ดีเยี่ยม แต่บางครั้งคุณต้องการเรียกใช้โฟลว์ที่คิวรีแหล่งข้อมูลตามเวลาที่กำหนดไว้ล่วงหน้า และดำเนินการบางอย่างขึ้นอยู่กับคุณสมบัติของรายการในแหล่งข้อมูล ในกรณีนี้ โฟลว์ของคุณจะเริ่มต้นตามกำหนดเวลา (เช่น วันละครั้ง) และใช้การดำเนินการแบบวนรอบเช่น **นำไปใช้ในแต่ละอัน** (apply to each) เพื่อประมวลผลรายการของข้อมูล ตัวอย่างเช่น คุณสามารถใช้ **นำไปใช้ในแต่ละอัน** เพื่ออัปเดตระเบียนจากฐานข้อมูลหรือรายการจาก Microsoft SharePoint ได้

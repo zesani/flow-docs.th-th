@@ -15,12 +15,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 08/02/2017
 ms.author: deonhe
-ms.openlocfilehash: aa3f61d09cb5e9b8d07124838883da9b5b9794ab
-ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
+search.app:
+- Flow
+search.audienceType:
+- flowmaker
+- enduser
+ms.openlocfilehash: c28fa7feb743db4616199246d6d517e2e1f6aff9
+ms.sourcegitcommit: a20fbed9941f0cd8b69dc579277a30da9c8bb31b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31001339"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44691009"
 ---
 # <a name="use-data-operations-with-microsoft-flow"></a>ใช้การดำเนินการข้อมูล ด้วย Microsoft Flow
 ในการฝึกปฏิบัตินี้ คุณจะได้เรียนรู้เกี่ยวกับการดำเนินการข้อมูลบางตัวที่ได้รับความนิยมของ Microsoft Flow เช่น เขียน, รวม, เลือก, ตัวกรองอาร์เรย์, สร้างตาราง และแยกวิเคราะห์ JSON เพื่อใข้จัดการกับข้อมูลเมื่อคุณสร้างโฟลว์

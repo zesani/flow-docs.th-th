@@ -15,12 +15,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/22/2016
 ms.author: stepsic
-ms.openlocfilehash: e4e92bfdcf1ea65de272233b2056523641010cf2
-ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
+search.app:
+- Flow
+search.audienceType:
+- flowmaker
+- enduser
+ms.openlocfilehash: b2cf6c52a2cbaf06fc638fe8fc898689e6d523c4
+ms.sourcegitcommit: a20fbed9941f0cd8b69dc579277a30da9c8bb31b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31002519"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44690846"
 ---
 # <a name="create-a-flow-that-uses-the-common-data-service"></a>สร้างโฟลว์ที่ใช้ Common Data Service
 ปรับปรุงประสิทธิภาพในการดำเนินงาน ด้วยมุมมองข้อมูลทางธุรกิจแบบรวมกันในที่เดียว โดยการสร้างโฟลว์ที่ใช้ [Common Data Service](https://powerapps.microsoft.com/tutorials/data-platform-intro/) ปรับใช้ฐานข้อมูลทางธุรกิจที่มีความปลอดภัยนี้ ซึ่งประกอบด้วยเอนทิตีธุรกิจมาตรฐานที่จัดรูปแบบอย่างดี (เช่น ยอดขาย ซื้อ ส่วนบริการลูกค้า และประสิทธิภาพการทำงาน) ในองค์กรของคุณ จัดเก็บข้อมูลขององค์กรใน[เอนทิตีแบบกำหนดเอง](https://powerapps.microsoft.com/tutorials/data-platform-create-entity/)อย่างน้อยหนึ่งรายการ ซึ่งมีประโยชน์มากต่อแหล่งข้อมูลภายนอก เช่น Microsoft Excel และ Salesforce

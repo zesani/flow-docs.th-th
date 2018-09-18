@@ -15,12 +15,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 4/17/2018
 ms.author: keweare
-ms.openlocfilehash: 532d3c1affe899da3125e9f512b21bf3e39ca25e
-ms.sourcegitcommit: cd3cdcff3accb9a54f002fdc33d33935b4276249
+search.app:
+- Flow
+- Powerplatform
+search.audienceType:
+- admin
+ms.openlocfilehash: 77ce6e368c8cb54d360ebeaa32f1f649e30aa297
+ms.sourcegitcommit: 44bc9de9f06b64615731ceb60a4f46cfcd45b167
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2018
-ms.locfileid: "39520088"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45727193"
 ---
 # <a name="responding-to-gdpr-data-subject-delete-requests-for-microsoft-flow"></a>การตอบสนองคำขอการลบเจ้าของข้อมูล GDPR สำหรับ Microsoft Flow
 
@@ -276,7 +281,7 @@ Get-AdminConnectorRoleAssignment -PrincipalObjectId $deleteDsrUserId | Remove-Ad
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการเอาสิทธิ์ของผู้ใช้ในสภาพแวดล้อมออก ให้นำทางไปยัง [การใช้สภาพแวดล้อมภายใน Microsoft Flow](https://docs.microsoft.com/flow/environments-overview-admin)
 
 ## <a name="delete-gateway-settings"></a>ลบการตั้งค่าเกตเวย์
-การตอบสนองต่อการร้องขอการลบเจ้าของข้อมูลสำหรับเกตเวย์ข้อมูลภายในองค์กรสามารถดูได้[ที่นี่](https://docs.microsoft.com/en-us/power-bi/service-gateway-onprem#tenant-level-administration)
+การตอบสนองต่อการร้องขอการลบเจ้าของข้อมูลสำหรับเกตเวย์ข้อมูลภายในองค์กรสามารถดูได้[ที่นี่](https://docs.microsoft.com/power-bi/service-gateway-onprem#tenant-level-administration)
 
 ## <a name="delete-user-details"></a>ลบรายละเอียดผู้ใช้
 รายละเอียดผู้ใช้ให้ความเชื่อมโยงระหว่างผู้ใช้และผู้เช่าที่เฉพาะเจาะจง ก่อนที่ใช้คำสั่งนี้ ตรวจสอบให้แน่ใจว่าเวิร์กโฟลว์ทั้งหมดสำหรับผู้ใช้รายนี้ได้ถูกมอบหมายอีกครั้ง และ/หรือถูกลบไปแล้วหรือไม่ หลังจากที่ขั้นตอนดังกล่าวเสร็จสมบูรณ์ ผู้ดูแลสามารถลบรายละเอียดผู้ใช้ได้โดยการเรียกใช้ cmdlet **Remove-AdminFlowUserDetails** และส่งผ่านใน ID ออบเจ็กต์สำหรับผู้ใช้นั้น

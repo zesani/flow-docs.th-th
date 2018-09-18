@@ -15,12 +15,16 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 05/09/2017
 ms.author: barathb
-ms.openlocfilehash: 1dee6ba5cfd41edb1218e7246ce329265b9ce1d2
-ms.sourcegitcommit: 77aae180d972373d1f251fa6a5c8f484f08ffc15
+search.app:
+- Flow
+search.audienceType:
+- developer
+ms.openlocfilehash: aa5e0a7d143e0e1486533131f90d6b04c6fbc20c
+ms.sourcegitcommit: a20fbed9941f0cd8b69dc579277a30da9c8bb31b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39720550"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44690026"
 ---
 # <a name="integrate-microsoft-flow-with-websites-and-apps"></a>รวม Microsoft Flow เข้ากับเว็บไซต์และแอป
 ฝัง Microsoft Flow ลงในแอปหรือเว็บไซต์ได้โดยตรง เพื่อให้ผู้ใช้มีวิธีที่ง่ายในการทำให้หน้าที่ทั้งส่วนบุคคลและด้านอาชีพเป็นกระบวนการอัตโนมัติ

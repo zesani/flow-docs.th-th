@@ -15,12 +15,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 09/21/2017
 ms.author: deonhe
-ms.openlocfilehash: 2804c683defb94f87c40452a27382bc143c11f10
-ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
+search.app:
+- Flow
+search.audienceType:
+- flowmaker
+- enduser
+ms.openlocfilehash: 77b46d10ec3856054dcc8e1734b327bac9a01596
+ms.sourcegitcommit: a20fbed9941f0cd8b69dc579277a30da9c8bb31b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31001459"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44690357"
 ---
 # <a name="share-button-flows-in-microsoft-flow"></a>แชร์โฟลว์ของปุ่มใน Microsoft Flow
 ในแอป Microsoft Flow สำหรับอุปกรณ์เคลื่อนที่ คุณสามารถแชร์[โฟลว์ของปุ่ม](introduction-to-button-flows.md) (ปุ่ม) ให้กับผู้ใช้อื่น หรือกลุ่มอื่น ภายในองค์กรของคุณได้ เมื่อคุณแชร์ปุ่ม บุคคลหรือกลุ่มที่คุณแชร์ให้ สามารถเรียกใช้ปุ่มของคุณ แบบเดียวกับที่พวกเขาเรียกใช้ปุ่มของตนเอง คุณยังสามารถ[แชร์ลิงก์](share-buttons.md#re-share-a-button)ไปยังปุ่มที่บุคคลอื่นแชร์ให้กับคุณได้ คุณสามารถ[หยุดการแชร์](share-buttons.md#stop-sharing-a-button)ปุ่มของคุณได้ตลอดเวลา
