@@ -20,12 +20,12 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 4746fa74911126f3e23ed009dd109a2766dae12a
-ms.sourcegitcommit: a20fbed9941f0cd8b69dc579277a30da9c8bb31b
+ms.openlocfilehash: dc1b93553938221c3f1c995b63b984cfff913c06
+ms.sourcegitcommit: ffed9f02092fbd19fc4108aee05dd40d1a2a3755
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44690939"
+ms.lasthandoff: 09/24/2018
+ms.locfileid: "46711622"
 ---
 # <a name="get-started-with-button-trigger-tokens"></a>เริ่มต้นใช้งานปุ่มทริกเกอร์โทเค็น
 ## <a name="what-are-button-trigger-tokens"></a>โทเค็นทริกเกอร์ปุ่มคืออะไร
@@ -97,6 +97,4 @@ ms.locfileid: "44690939"
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 * [แชร์ button flow](share-buttons.md)
-* [เรียนรู้เกี่ยวกับ button flow](introduction-to-button-flows.md)  
-* [เรียนรู้เกี่ยวกับโฟลว์](guided-learning/get-started.yml?tutorial-step=1)
-
+* [เรียนรู้เกี่ยวกับ button flow](introduction-to-button-flows.md)

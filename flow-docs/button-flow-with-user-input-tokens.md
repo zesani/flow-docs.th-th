@@ -20,12 +20,12 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: f0e075a63331a70c32fd87a25ad0b3fdb7cf043b
-ms.sourcegitcommit: a20fbed9941f0cd8b69dc579277a30da9c8bb31b
+ms.openlocfilehash: f87b0d93b912799a4977f347d89b12421cf42e70
+ms.sourcegitcommit: ffed9f02092fbd19fc4108aee05dd40d1a2a3755
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44689973"
+ms.lasthandoff: 09/24/2018
+ms.locfileid: "46711576"
 ---
 # <a name="introducing-button-flows-with-user-input"></a>แนะนำโฟลว์ของปุ่มที่มีการป้อนข้อมูลของผู้ใช้
 สร้างโฟลว์ของปุ่มเพื่อทำงานที่เป็นประจำ เพียงแค่แตะที่ปุ่ม กำหนดค่าโฟลว์ของคุณ ให้ผู้ใช้สามารถระบุรายละเอียดที่จะใช้เมื่อโฟลว์ทำงาน หัวข้อนี้แนะนำคุณ ไปตามขั้นตอนการสร้างโฟลว์ของปุ่ม ที่รับการป้อนข้อมูลของผู้ใช้ แล้วเรียกใช้โฟลว์ของปุ่ม โดยเน้นที่วิธีการให้ผู้ใช้ป้อนข้อมูล
@@ -121,8 +121,7 @@ ms.locfileid: "44689973"
     ![](./media/button-flow-with-user-input-tokens/runmt6.png)  
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-* [แชร์โฟลว์ของปุ่ม](share-buttons.md)
-* [เรียนรู้เกี่ยวกับโฟลว์](guided-learning/get-started.yml?tutorial-step=1)  
-* [เรียนรู้เกี่ยวกับโฟลว์ของปุ่ม](introduction-to-button-flows.md)  
+* [แชร์ button flow](share-buttons.md)
+* [เรียนรู้เกี่ยวกับ button flow](introduction-to-button-flows.md)  
 * [เรียนรู้เกี่ยวกับโฟลว์ของปุ่มที่มีโทเค็นทริกเกอร์](introduction-to-button-trigger-tokens.md)  
 
