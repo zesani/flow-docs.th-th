@@ -1,49 +1,101 @@
-- name: เริ่มใช้งาน
+items:
+- name: ภาพรวม
   items:
-    - name: เริ่มใช้งาน
-      href: getting-started.md
-    - name: ลงชื่อสมัครใช้
-      href: sign-up-sign-in.md
-    - name: สร้างโฟลว์จากเทมเพลต
-      href: get-started-logic-template.md
-    - name: สร้างโฟลว์ตั้งแต่เริ่มต้น
-      href: get-started-logic-flow.md
-    - name: สร้างโฟลว์ทีม
-      href: create-team-flows.md
-    - name: ภาพรวมของสภาพแวดล้อม
-      href: environments-overview-maker.md
-    - name: คำถามที่ถามบ่อย
-      href: frequently-asked-questions.md
-- name: สร้างโฟลว์
+  - name: ลงชื่อสมัครใช้
+    href: sign-up-sign-in.md
+  - name: เริ่มใช้งาน
+    href: getting-started.md
+  - name: การเรียนรู้ตามคำแนะนำ
+    href: https://docs.microsoft.com/learn/paths/automate-process-using-flow
+  - name: สร้างโฟลว์ในเบราว์เซอร์
+    href: get-started-logic-template.md
+  - name: สร้างโฟลว์บนโทรศัพท์
+    href: mobile-create-flow.md
+  - name: สร้างโฟลว์ทีม
+    href: create-team-flows.md
+  - name: สร้างโฟลว์ที่ใช้ Common Data Service
+    href: common-data-model-intro.md
+- name: โฟลว์แบบอัตโนมัติ
   items:
-    - name: เพิ่มการดำเนินการ
-      href: multi-step-logic-flow.md
-    - name: เพิ่มเงื่อนไข
-      href: add-condition.md
-    - name: เรียกใช้โฟลว์ตามกำหนดการ
-      href: run-scheduled-tasks.md
-    - name: ทริกเกอร์โฟลว์ด้วยอีเมล
-      href: email-triggers.md
-    - name: ประมวลผลรายการ
-      href: apply-to-each.md
-    - name: ใช้การดำเนินการข้อมูล
-      href: data-operations.md
-    - name: ตัวกรองและคัดลอกข้อมูล
-      href: odata-filters.md
-    - name: ใช้นิพจน์ในเงื่อนไข
-      href: use-expressions-in-conditions.md
-    - name: สร้างโฟลว์กับ Dynamics 365
-      href: connection-dynamics365.md
-    - name: เพิ่มข้อมูลไปยัง Common Data Service
-      href: common-data-model-intro.md
-    - name: ดูโฟลว์
-      href: see-a-flow-run.md
-    - name: เผยแพร่เทมเพลต
-      href: publish-a-template.md
-    - name: แก้ไขปัญหาโฟลว์
-      href: fix-flow-failures.md
-- name: สร้างโฟลว์การอนุมัติ
+  - name: สร้างโฟลว์ตั้งแต่เริ่มต้น
+    href: get-started-logic-flow.md
+  - name: ทริกเกอร์โฟลว์ด้วยอีเมล
+    href: email-triggers.md
+  - name: สร้างโฟลว์กับ Dynamics 365
+    href: connection-dynamics365.md
+  - name: ตัวกรองและคัดลอกข้อมูล
+    href: odata-filters.md
+  - name: ใช้ Flic
+    href: flic-button-flows.md
+  - name: ใช้ bttn
+    href: bttn-button-flows.md
+- name: โฟลว์ปุ่ม
   items:
+  - name: สร้างโฟลว์ปุ่ม
+    href: introduction-to-button-flows.md
+  - name: สร้างโฟลว์ปุ่มด้วยโทเค็นทริกเกอร์
+    href: introduction-to-button-trigger-tokens.md
+  - name: สร้างโฟลว์ปุ่มกับผู้ใช้ป้อนข้อมูล
+    href: button-flow-with-user-input-tokens.md
+  - name: แชร์ปุ่ม
+    href: share-buttons.md
+- name: โฟลว์ที่กำหนดเวลาไว้
+  items:
+  - name: เรียกใช้โฟลว์ตามกำหนดการ
+    href: run-scheduled-tasks.md
+  - name: ประมวลผลรายการ
+    href: apply-to-each.md
+- name: โฟลว์กระบวนการทางธุรกิจ
+  items:
+  - name: ภาพรวมโฟลว์กระบวนการทางธุรกิจ
+    href: business-process-flows-overview.md
+  - name: สร้างโฟลว์กระบวนการทางธุรกิจเพื่อกำหนดมาตรฐานกระบวนการ
+    href: create-business-process-flow.md
+  - name: ปรับปรุงโฟลว์กระบวนการทางธุรกิจด้วยการโยงหัวข้อ
+    href: enhance-business-process-flows-branching.md
+- name: Common Data Service (CDS) สำหรับแอป
+  items:
+  - name: CDS สำหรับเวิร์กโฟลว์แอปแบบคลาสสิก
+    href: workflow-processes.md
+    items:
+    - name: กำหนดค่าลำดับขั้นและขั้นตอนเวิร์กโฟลว์
+      href: configure-workflow-steps.md
+    - name: ตรวจสอบและจัดการกระบวนการเวิร์กโฟลว์
+      href: monitor-manage-processes.md
+    - name: แนวทางปฏิบัติที่ดีที่สุดสำหรับกระบวนการเวิร์กโฟลว์
+      href: best-practices-workflow-processes.md
+  - name: CDS สำหรับแอคชันแอปแบบคลาสสิก
+    items:
+    - name: ใช้แอคชัน
+      href: actions.md
+    - name: สร้างแอคชันแบบกำหนดเอง
+      href: create-actions.md
+    - name: กำหนดค่าแอคชันแบบกำหนดเองจากเวิร์กโฟลว์
+      href: configure-actions.md
+    - name: เรียกแอคชันแบบกำหนดเองจากเวิร์กโฟลว์
+      href: invoke-custom-actions-workflow-dialog.md
+  - name: CDS สำหรับโฟลว์งานแอปแบบคลาสสิก
+    items:
+    - name: สร้างโฟลว์งานแบบเคลื่อนที่
+      href: create-mobile-task-flow.md
+  - name: CDS สำหรับกล่องโต้ตอบแอปแบบคลาสสิก
+    items:
+    - name: ใช้ CDS สำหรับกล่องโต้ตอบแอปแบบคลาสสิก
+      href: use-cds-for-apps-dialogs.md
+    - name: แทนที่ CDS สำหรับกล่องโต้ตอบแอปแบบคลาสสิก
+      href: replace-dialogs.md
+- name: วิธีใช้
+  items:
+  - name: เพิ่มการดำเนินการ
+    href: multi-step-logic-flow.md
+  - name: เพิ่มเงื่อนไข
+    href: add-condition.md
+  - name: ใช้การดำเนินการข้อมูล
+    href: data-operations.md
+  - name: ใช้นิพจน์ในเงื่อนไข
+    href: use-expressions-in-conditions.md
+  - name: โฟลว์การอนุมัติ
+    items:
     - name: การอนุมัติเดี่ยว
       href: modern-approvals.md
     - name: การอนุมัติตามลำดับ
@@ -56,64 +108,61 @@
       href: common-data-model-approve.md
     - name: คำขออนุมัติรูปแบบ
       href: approvals-markdown-support.md
-- name: ใช้แอปสำหรับอุปกรณ์เคลื่อนที
+  - name: จัดการโฟลว์บนโทรศัพท์
+    href: mobile-manage-flows.md
+  - name: เผยแพร่เทมเพลต
+    href: publish-a-template.md
+- name: การแก้ไขปัญหา
   items:
-    - name: สร้างโฟลว์
-      href: mobile-create-flow.md
-    - name: สร้างโฟลว์ปุ่ม
-      href: introduction-to-button-flows.md
-    - name: สร้างโฟลว์ปุ่มด้วยโทเค็นทริกเกอร์
-      href: introduction-to-button-trigger-tokens.md
-    - name: สร้างโฟลว์ปุ่มกับผู้ใช้ป้อนข้อมูล
-      href: button-flow-with-user-input-tokens.md
-    - name: แชร์ปุ่ม
-      href: share-buttons.md
-    - name: ตรวจสอบกิจกรรมของโฟลว์
-      href: mobile-monitor-activity.md
-    - name: จัดการโฟลว์ของคุณ
-      href: mobile-manage-flows.md
-- name: ใช้อุปกรณทางกายภาพ
+  - name: ดูโฟลว์
+    href: see-a-flow-run.md
+  - name: ตรวจสอบกิจกรรมของโฟลว์บนโทรศัพท์
+    href: mobile-monitor-activity.md
+  - name: แก้ไขปัญหาโฟลว์
+    href: fix-flow-failures.md
+- name: เชื่อมต่อกับข้อมูล
   items:
-    - name: ใช้ Flic
-      href: flic-button-flows.md
-    - name: ใช้ bttn
-      href: bttn-button-flows.md
-- name: การเชื่อมต่อ
+  - name: การเชื่อมต่อที่พร้อมใช้งาน
+    href: https://go.microsoft.com/fwlink/?linkid=832211
+  - name: จัดการการเชื่อมต่อ
+    href: add-manage-connections.md
+  - name: จัดการเกตเวย์
+    href: gateway-manage.md
+  - name: ทำความเข้าใจเกตเวย์
+    href: gateway-reference.md
+- name: สำหรับนักพัฒนา
   items:
-    - name: การเชื่อมต่อที่พร้อมใช้งาน
-      href: 'https://go.microsoft.com/fwlink/?linkid=832211'
-    - name: จัดการการเชื่อมต่อ
-      href: add-manage-connections.md
-    - name: จัดการเกตเวย์
-      href: gateway-manage.md
-    - name: ทำความเข้าใจเกตเวย์
-      href: gateway-reference.md
-- name: พัฒนาสำหรับ Microsoft Flow
-  items:
-    - name: Microsoft Flow สำหรับนักพัฒนาองค์กร คู่ค้า และ ISV
-      href: dev-enterprise-intro.md
-    - name: สร้าง และรับรองตัวเชื่อมต่อแบบกำหนดเอง
-      href: register-custom-api.md
-    - name: รวมกับเว็บไซต์และเทคโนโลยีอื่น ๆ
-      href: embed-flow-dev.md
-    - name: อนุญาตให้ลูกค้าทดลองใช้โฟลว์ของคุณ
-      href: dev-appsource-test-drive.md
+  - name: Microsoft Flow สำหรับนักพัฒนาองค์กร คู่ค้า และ ISV
+    href: ./developer/dev-enterprise-intro.md
+  - name: สร้าง และรับรองตัวเชื่อมต่อแบบกำหนดเอง
+    href: ./developer/register-custom-api.md
+  - name: รวมกับเว็บไซต์และเทคโนโลยีอื่น ๆ
+    href: ./developer/embed-flow-dev.md
+  - name: อนุญาตให้ลูกค้าทดลองใช้โฟลว์ของคุณ
+    href: ./developer/dev-appsource-test-drive.md
+  - name: ทำงานกับโฟลว์กระบวนการทางธุรกิจโดยใช้รหัส
+    href: ./developer/business-process-flows-code.md
+    items:
+    - name: 'ตัวอย่าง: ทำงานกับโฟลว์กระบวนการทางธุรกิจ'
+      href: ./developer/sample-work-business-process-flows.md
+  - name: CDS สำหรับกิจกรรมเวิร์กโฟลว์แอปแบบกำหนดเอง
+    href: ./developer/custom-cds-for-apps-workflow-activities.md
 - name: การดูแลระบบ
   items:
-    - name: ถามตอบโฟลว์ในองค์กรของคุณ
-      href: organization-q-and-a.md
-    - name: การกำหนดราคา
-      href: billing-questions.md
-    - name: ศูนย์การจัดการเบื้องต้น
-      href: admin-center-introduction.md
-    - name: ดูแลสภาพแวดล้อม
-      href: environments-overview-admin.md
-    - name: ตั้งค่านโยบายเพื่อช่วยป้องกันการสูญหายของข้อมูล
-      href: prevent-data-loss.md
-    - name: กลุ่มข้อมูลเบื้องต้น
-      href: introduction-to-data-groups.md
-- name: ตอบสนองคำขอ DSR
-  items:
+  - name: ถามตอบโฟลว์ในองค์กรของคุณ
+    href: organization-q-and-a.md
+  - name: การกำหนดราคา
+    href: billing-questions.md
+  - name: ศูนย์การจัดการเบื้องต้น
+    href: admin-center-introduction.md
+  - name: ดูแลสภาพแวดล้อม
+    href: environments-overview-admin.md
+  - name: ตั้งค่านโยบายเพื่อช่วยป้องกันการสูญหายของข้อมูล
+    href: prevent-data-loss.md
+  - name: กลุ่มข้อมูลเบื้องต้น
+    href: introduction-to-data-groups.md
+  - name: ตอบสนองคำขอ DSR
+    items:
     - name: สรุป
       href: gdpr-dsr-summary.md
     - name: ค้นหาคำขอ
@@ -122,8 +171,8 @@
       href: gdpr-dsr-export.md
     - name: ลบคำขอ
       href: gdpr-dsr-delete.md
-- name: คำขอ DSR สำหรับบัญชี Microsoft
-  items:
+  - name: คำขอ DSR สำหรับบัญชี Microsoft
+    items:
     - name: สรุป
       href: gdpr-dsr-summary-msa.md
     - name: ค้นหาคำขอ
@@ -136,9 +185,25 @@
       href: gdpr-dsr-accountclose-msa.md
 - name: การอ้างอิง
   items:
-    - name: ภาพรวมภูมิภาค
-      href: regions-overview.md
-    - name: ขีดจำกัดและการกำหนดค่า
-      href: limits-and-config.md
-    - name: บันทึกย่อประจำรุ่น
-      href: release-notes.md
+  - name: ภาพรวมภูมิภาค
+    href: regions-overview.md
+  - name: ขีดจำกัดและการกำหนดค่า
+    href: limits-and-config.md
+  - name: บันทึกย่อประจำรุ่น
+    href: release-notes.md
+  - name: คำถามที่ถามบ่อย
+    href: frequently-asked-questions.md
+- name: เรียนรู้จากผู้อื่น
+  items:
+  - name: การสัมมนาผ่านเว็บ
+    href: https://flow.microsoft.com/blog/category/webinars/
+  - name: บล็อก
+    href: https://flow.microsoft.com/blog/
+  - name: ฟอรั่ม
+    href: https://powerusers.microsoft.com/t5/Microsoft-Flow-Community/ct-p/FlowCommunity
+ms.openlocfilehash: 0ea74141e1c80b2f550ca5f43191a40c1b5aad58
+ms.sourcegitcommit: f7985b96afe68b079b7fd4a6d04cd0a042d893e0
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47188535"
